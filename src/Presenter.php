@@ -79,7 +79,7 @@ abstract class Presenter implements ArrayAccess, Arrayable, Jsonable
      *
      * @param Model $model
      * @param \Hemp\Presenter\Presenter|null $presenter
-     * @return void
+     * @return \Hemp\Presenter\Presenter
      */
     public static function make(Model $model, $presenter = null)
     {
